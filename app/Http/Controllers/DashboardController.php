@@ -8,7 +8,12 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return view('backend.layout.main');
+        return view('backend.content.dashboard');
 
+    }
+
+    public function profile()
+    {
+        return view('backend.content.profile');
     }
 }
